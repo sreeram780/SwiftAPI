@@ -14,6 +14,7 @@
 		C2CD7C9F1DEC2075000BE83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CD7C9D1DEC2075000BE83F /* LaunchScreen.storyboard */; };
 		C2CD7CAA1DEC2075000BE83F /* SwiftRestAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CD7CA91DEC2075000BE83F /* SwiftRestAPITests.swift */; };
 		C2CD7CB51DEC2075000BE83F /* SwiftRestAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CD7CB41DEC2075000BE83F /* SwiftRestAPIUITests.swift */; };
+		C2CD7CC31DEC20A4000BE83F /* RESTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CD7CC21DEC20A4000BE83F /* RESTAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C2CD7CB01DEC2075000BE83F /* SwiftRestAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRestAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CD7CB41DEC2075000BE83F /* SwiftRestAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRestAPIUITests.swift; sourceTree = "<group>"; };
 		C2CD7CB61DEC2075000BE83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CD7CC21DEC20A4000BE83F /* RESTAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C2CD7C941DEC2075000BE83F /* AppDelegate.swift */,
 				C2CD7C961DEC2075000BE83F /* ViewController.swift */,
+				C2CD7CC21DEC20A4000BE83F /* RESTAPI.swift */,
 				C2CD7C981DEC2075000BE83F /* Main.storyboard */,
 				C2CD7C9B1DEC2075000BE83F /* Assets.xcassets */,
 				C2CD7C9D1DEC2075000BE83F /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2CD7C971DEC2075000BE83F /* ViewController.swift in Sources */,
+				C2CD7CC31DEC20A4000BE83F /* RESTAPI.swift in Sources */,
 				C2CD7C951DEC2075000BE83F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
